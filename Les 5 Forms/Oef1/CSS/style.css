@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formId {
+    width: 40%;
+}
+#formId label{
+    font-weight: bold;
+    font-size: large;
+}
+#formId .textInput {
+    background-color: lightblue;
+
+}
+#formId .textInput:focus {
+    background-color: white;
+
+}
+#formId div{
+    margin: 8px;
+}
+.submitButton {
+    padding: 8px;
+    font-weight: bold;
+}

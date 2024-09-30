@@ -1,0 +1,29 @@
+hr {
+    height: 1px;
+    background-color: #00293D;
+    border: none;
+}
+
+
+#entiteit {
+    margin: 1em;
+    border: solid 1px gray;
+    border-collapse: collapse;
+}
+
+#entiteit td {
+    border: solid 1px gray;
+    padding:  15px;
+    text-align: center;
+}
+
+#entiteit th {
+    border: solid 1px gray;
+    padding:  15px;
+    background-color: #00293D;
+    color: white;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}

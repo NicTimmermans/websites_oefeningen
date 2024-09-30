@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/Style.css" />
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="post" id="formId">
+      <div><label for="nameId">Voornaam:</label></div>
+      <div>
+        <input type="text" id="nameId" name="name" placeholder="Voornaam" />
+      </div>
+      <div><label for="familyNameId">Familienaam</label></div>
+      <div>
+        <input
+          type="text"
+          id="familyNameId"
+          name="familyName"
+          placeholder="naam"
+        />
+      </div>
+      <div><label for="userNameId">Gebruikersnaam</label></div>
+      <div>
+        <input
+          type="email"
+          id="userNameId"
+          name="userName"
+          placeholder="mail@thomasmore.be"
+        />
+      </div>
+      <div><label for="nicknameId">Nickname</label></div>
+      <div>
+        <input
+          type="text"
+          id="nicknameId"
+          name="nickname"
+          minlength="5"
+          maxlength="15"
+          required
+        />
+      </div>
+      <div><label for="passwordId">Paswoord</label></div>
+      <div>
+        <input type="password" id="paswordId" name="password" required />
+      </div>
+      <div><label for="repeatPasswordId">Herhaal paswoord</label></div>
+      <div>
+        <input
+          type="password"
+          id="repeatPasswordId"
+          name="repeatPassword"
+          required
+        />
+      </div>
+      <div>
+        <input class="submitButton" type="submit" value="Registreren" />
+      </div>
+    </form>
+  </body>
+</html>

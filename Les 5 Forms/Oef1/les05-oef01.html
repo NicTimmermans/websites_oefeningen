@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="formId" action="https://tm-statweb.be/forms.php" method="post">
+      <div>
+        <label for="nameId"> Voornaam: </label>
+      </div>
+      <div>
+        <input
+          class="textInput"
+          type="text"
+          id="nameId"
+          name="name"
+          placeholder="Voornaam"
+        />
+      </div>
+
+      <div><label for="familyNameId">Familienaam: </label></div>
+      <div>
+        <input
+          class="textInput"
+          type="text"
+          id="familyNameId"
+          name="familyName"
+          placeholder="Familienaam"
+        />
+      </div>
+      <div>
+        <input class="submitButton" type="submit" value="Registreren" />
+      </div>
+    </form>
+  </body>
+</html>
