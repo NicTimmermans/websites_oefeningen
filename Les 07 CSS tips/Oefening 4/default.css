@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .column-60 {
+    float: left;
+    width: 60%;
+    padding: 15px;
+  }
+  .column-40 {
+    float: left;
+    width: 40%;
+    padding: 15px;
+  }
+
+  .column-25 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    font-family: 'Segoe UI';
+  }
+
+  /* Tip: stop het floaten van de kolommen */
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - wanneer het scherm kleiner is dan 600px zullen we de kolommen onder elkaar plaatsen door de breedte op 100% te zetten */
+
+  @media (width <=500px) {
+
+    .column-40,
+    .column-60,
+    .column-25 {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    padding:  10px;
+    margin: auto;
+}

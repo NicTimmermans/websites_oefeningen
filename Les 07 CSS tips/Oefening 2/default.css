@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item-white {
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+}
+.flex-item-red {
+    background-color: red;
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+}
+.flex-item-yellow {
+    background-color: yellow;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+}
